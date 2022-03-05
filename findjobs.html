@@ -23,10 +23,12 @@
                 </div>
             </nav>
 
-            <div id="main-banner">
+        </header>
+
+        <main id="lastjobs-container" class="wrapper">
+            <h1>Busque sua vaga</h1>
+            <div id="job-filter">
                 <div id="search-form">
-                    <h1>A maneira mais facil de encontrar seu novo emprego</h1>
-                    <p>Conecte-se de forma gratuita as melhores empresas e consiga o emprego dos seus sonhos.</p>
                     <form>
                         <input type="text" name="job" placeholder="Digite o cargo">
                         <select name="region">
@@ -37,13 +39,26 @@
                             <option value="">Categoria</option>
                         </select>
                         <input type="submit" value="Pesquisar">
+
                     </form>
                 </div>
             </div>
-        </header>
 
-        <main id="lastjobs-container" class="wrapper">
-            <h1>Últimas vagas enviadas</h1>
+            <div id="type-filter">
+                <ul>
+                    <li><input type="checkbox" checked><label>CLT</label></li>
+                </ul>
+                <ul>
+                    <li><input type="checkbox" checked><label>PJ</label></li>
+                </ul>
+                <ul>
+                    <li><input type="checkbox" checked><label>Home Office</label></li>
+                </ul>
+                <ul>
+                    <li><input type="checkbox" checked><label>Free Lancer</label></li>
+                </ul>
+            </div>
+
             <ul>
                 <li><a href="#" class="clickarea">
                     <div class="company-box">
@@ -118,104 +133,10 @@
     </li>
             </ul>
             <div class="btnjobs-container">
-                <a href="#" class="btn-jobs">Ver mais vagas</a>
+                <a href="#" class="btn-jobs">Carregar mais vagas</a>
             </div>
         </main>
-        <section id="sendjobs-container">
-            <div id="sendjobs-inner" class="wrapper">
-                <h2>Envie uma vaga que será vista por milhares de candidatos</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, sequi! Molestiae quas, quae eius repellat ratione minima vel dolore et earum repellendus ex praesentium. Ipsum accusantium eaque blanditiis facere aperiam?</p>
-                <a href="#" class="light-btn">Enviar vaga</a>
-            </div>
-        </section>
-
-        <section id="status-container" class="wrapper">
-            <h2 class="title-center">Estatisticas do JobFInder</h2>
-            <p class="p-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem delectus earum ullam sunt! Soluta aspernatur nesciunt consequatur. Alias quisquam labore aliquam asperiores. Perferendis ipsum veritatis nisi at velit itaque nam?</p>
-
-            <div>
-                <div class="status-box">
-                    <span class="status-qtd">150</span>
-                    <p class="status-text">Vagas abertas</p>
-                </div>
-
-                <div class="status-box">
-                    <span class="status-qtd">250</span>
-                    <p class="status-text">candidatos contratados</p>
-                </div>
-
-                <div class="status-box">
-                    <span class="status-qtd">50</span>
-                    <p class="status-text">Empresas participantes</p>
-                </div>
-
-                <div class="status-box">
-                    <span class="status-qtd">550</span>
-                    <p class="status-text">candidatos</p>
-                </div>
-
-            </div>
-        </section>
-
-        <section id="testmony-container">
-            <div class="wrapper">
-                <h2>Veja o que os candidatos dizem</h2>
-                <p class="p-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque maxime, aliquid quibusdam doloribus adipisci dolore mollitia itaque aut dignissimos facere, tenetur culpa necessitatibus. Pariatur repudiandae similique eum dolorem ex cumque.</p>
-                <div class="testmony-box">
-                    <p class="testmony-msg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque aspernatur labore inventore quas minima obcaecati ipsa suscipit sequi deserunt vero! Repellendus rerum nesciunt ducimus, illo recusandae atque consequatur eveniet quibusdam!</p>
-                    <img src="img/avatar1.png">
-                    <p class="testmony-name">João</p>
-                </div>
-
-                <div class="testmony-box">
-                    <p class="testmony-msg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque aspernatur labore inventore quas minima obcaecati ipsa suscipit sequi deserunt vero! Repellendus rerum nesciunt ducimus, illo recusandae atque consequatur eveniet quibusdam!</p>
-                    <img src="img/avatar2.png">
-                    <p class="testmony-name">Maria</p>
-                </div>
-
-                <div class="testmony-box">
-                    <p class="testmony-msg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque aspernatur labore inventore quas minima obcaecati ipsa suscipit sequi deserunt vero! Repellendus rerum nesciunt ducimus, illo recusandae atque consequatur eveniet quibusdam!</p>
-                    <img src="img/avatar3.png">
-                    <p class="testmony-name">Pedro</p>
-                </div>
-
-                <div class="testmony-box">
-                    <p class="testmony-msg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque aspernatur labore inventore quas minima obcaecati ipsa suscipit sequi deserunt vero! Repellendus rerum nesciunt ducimus, illo recusandae atque consequatur eveniet quibusdam!</p>
-                    <img src="img/avatar4.png">
-                    <p class="testmony-name">Alexia</p>
-                </div>
-            </div>
-        </section>
-
-            <section id="blog-container" class="wrapper">
-                <h2 class="title-center">Últimos artigos do nosso blog</h2>
-                <p class="p-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae optio nisi nulla unde quo deleniti quas incidunt beatae, dolore debitis tenetur reprehenderit quasi obcaecati doloremque. Exercitationem quae aliquid veniam laudantium.</p>
-                <div class="article-box">
-                    <img src="img/blog1.jpg">
-                    <h4><a href="#">Article title</a></h4>
-                    <p class="article-date">04 de março de 2022 | 10 comentários</p>
-                    <p class="article-resume">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsam exercitationem et recusandae esse sunt facere fugit, ut nam pariatur at dignissimos! Odit accusantium, libero itaque doloribus ea tenetur sapiente!</p>
-                    <a href="#" class="article-btn light-btn">Ler post</a>
-                </div>
-
-                <div class="article-box">
-                    <img src="img/blog2.jpg">
-                    <h4><a href="#">Article title</a></h4>
-                    <p class="article-date">04 de março de 2022 | 10 comentários</p>
-                    <p class="article-resume">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsam exercitationem et recusandae esse sunt facere fugit, ut nam pariatur at dignissimos! Odit accusantium, libero itaque doloribus ea tenetur sapiente!</p>
-                    <a href="#" class="article-btn light-btn">Ler post</a>
-                </div>
-
-                <div class="article-box">
-                    <img src="img/blog3.jpg">
-                    <h4><a href="#">Article title</a></h4>
-                    <p class="article-date">04 de março de 2022 | 10 comentários</p>
-                    <p class="article-resume">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsam exercitationem et recusandae esse sunt facere fugit, ut nam pariatur at dignissimos! Odit accusantium, libero itaque doloribus ea tenetur sapiente!</p>
-                    <a href="#" class="article-btn light-btn">Ler post</a>
-                </div>
-
-            </section>
-
+        
             <footer>
                 <div class="wrapper">
                     <div class="footer-box">
