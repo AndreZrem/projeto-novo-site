@@ -42,6 +42,13 @@ header
     height: auto;
     width: 100%;
 }
+ /* hide on desktop*/
+
+ .nav-container .btn-menumobile
+ {
+    display: none;
+ }
+
 /*Navbar*/
 
 nav
@@ -798,5 +805,14 @@ footer .wrapper:after
     .article-box h4
     {
         margin: 0;
+    }
+}
+
+@media screen and (max-width: 576px) 
+{
+    .nav-container .btn-menumobile
+    {
+        display: block !important;
+        
     }
 }
